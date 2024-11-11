@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: zwping/fork-sync@v1.6.5
         with:
-          owner: llvm
+          owner: zigbee2mqtt
           base: master
           head: master
