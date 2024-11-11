@@ -16,6 +16,7 @@ jobs:
     steps:
       - uses: zwping/fork-sync@v1.6.5
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           owner: zigbee2mqtt
           base: master
           head: master
